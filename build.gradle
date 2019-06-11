@@ -24,6 +24,8 @@ repositories {
 
 
 dependencies {
+// https://mvnrepository.com/artifact/org.apache.commons/commons-email
+compile group: 'org.apache.commons', name: 'commons-email', version: '1.2'
 	compile('org.springframework.boot:spring-boot-starter-mail')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
